@@ -35,7 +35,7 @@ function islandora_pdfjs_reader_islandora_viewer_info() {
   return array(
     'islandora_pdfjs_reader' => array(
       'label' => t('pdf.js Reader'),
-      'description' => t('Mozilla pdf.js Reader.'),
+      'description' => t('Implements the Mozilla pdf.js reader.'),
       'configuration' => 'admin/islandora/pdfjs_reader',
       'callback' => 'islandora_pdfjs_reader_viewer_callback',
       'model' => array('islandora:sp_pdf'),
